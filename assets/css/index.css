@@ -3,4 +3,39 @@
 /*---------------------------------------------------------------------------*/
 
 .hero-banner {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../media/hero-banner.png)center center/cover  no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.main-slogan {
+    
+}
+
+.sub-slogan {
+
+}
+
+
+@media (max-width: 768px) {
+    .main-slogan {
+        font-size: 2.5rem;
+    }
+    
+    .sub-slogan {
+        font-size: 1.2rem;
+    }
 }
