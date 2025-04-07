@@ -1,11 +1,12 @@
+@charset "utf-8";
+ 
+:root {
+    --main-background: #f3f4f5;
+}
+ 
 .container {
-    width: 320px;
-    height: 660px;
-    border-radius: 30px;
-    background-color: #F8F8FF;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid;
+    width: min(100% - 40px, 1080px);
+    margin-inline: auto;
 }
 
 .justify-between {
