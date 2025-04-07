@@ -1,0 +1,22 @@
+.container {
+    width: 320px;
+    height: 660px;
+    border-radius: 30px;
+    background-color: #F8F8FF;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid-center {
+    display: grid;
+    place-content: center;
+}
