@@ -22,8 +22,63 @@
     place-content: center;
 }
 
-header {
+/*---------------------------------------------------------------------------*/
+/*------------------------------Header---------------------------------------*/
+/*---------------------------------------------------------------------------*/
 
+.title {
+    height: 56px;
+  
+    h1 {
+        position: relative;
+        right: 2px;
+        line-height: 20px;
+        font-size: 1.8rem;
+        color: var(--primary-colour);
+        font-weight: 500;
+        text-transform: uppercase;
+        place-content: center;
+    }
+  
+    .logo {
+        height: 65px;
+        width: 60px;
+    }
+    
+  }
+
+nav {
+
+    height: 56px;
+  }
+  
+  nav .nav-list {
+    list-style: none;
+  }
+  
+  nav .nav-list li {
+    display: inline;
+    line-height: 56px;
+  
+    a {
+        text-decoration: none;
+        color: #525252;
+        font-size: 1.6rem;
+        font-weight: 500;
+    
+        &:hover {
+            color: var(--primary-colour);
+            transition: color 0.25s ease-in-out;
+        }
+    }
+  }
+  
+  .nav-list li + li {
+    margin-left: 16px;
+  }
+
+header {
+    width: 100%;
 }
 
 footer {
