@@ -1,0 +1,39 @@
+/* product listings */
+
+.rental-1 {  }
+.rental-2 {  }
+.rental-3 {  }
+.rental-4 {  }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.column {
+    height: 200px;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+}
+
+.col-lg-3 {
+    flex: 0 0 calc(25% - 15px);
+    max-width: calc(25% - 15px);
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
