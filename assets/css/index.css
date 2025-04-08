@@ -162,7 +162,7 @@ section {
 }
 
 .in {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -183,7 +183,7 @@ textarea.in {
 }
 
 .btn {
-    width: 100%;
+    width: 70%;
     padding: 12px;
     background-color: #007bff;
     color: #fff;
@@ -213,3 +213,22 @@ textarea.in {
     margin-top: 16px;
     font-weight: 600;
 }
+
+.company-number {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.company-number i {
+    color: #007bff;
+    font-size: 16px;
+}
+
+
