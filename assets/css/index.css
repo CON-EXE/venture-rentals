@@ -1,3 +1,162 @@
+<<<<<<< HEAD
+/* CONTACT US SECTION */
+.contact {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #F8F8FF;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.contact-body {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.form {
+    flex: 3.5;
+}
+
+.social {
+    flex: 2.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 30px;
+    border-radius: 0 0 30px 0;
+}
+
+.social-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: background 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateX(5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.social-link.fb i { background: #3b5998; }
+.social-link.tw i { background: #1da1f2; }
+.social-link.ig i { background: #e1306c; }
+.social-link.li i { background: #0077b5; } 
+
+.field {
+    margin-bottom: 14px;
+}
+
+.lbl {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.in {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.2s;
+}
+
+.in:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+textarea.in {
+    resize: none;
+    min-height: 90px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 8px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.err {
+    font-size: 12px;
+    color: #d9534f;
+    margin-top: 4px;
+}
+
+.ok {
+    text-align: center;
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+
+/* END CONTACT US SECTION */
+=======
 section {
     margin-top: 100px;
 }
@@ -58,3 +217,4 @@ section {
         max-width: 100%;
     }
 }
+>>>>>>> main
