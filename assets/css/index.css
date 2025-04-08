@@ -1,4 +1,64 @@
-<<<<<<< HEAD
+section {
+    margin-top: 100px;
+}
+
+/* product listings */
+
+.rental-1 {  }
+.rental-2 {  }
+.rental-3 {  }
+.rental-4 {  }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.column {
+    height: 250px;
+    border-radius: 5px;
+    /* background-color: #333; */
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 8%);
+
+    .img {
+        width: 100%;
+        height: 200px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    button {
+        height: 50px;
+        width: 100%;
+        background-color: #ffea00;
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+.col-lg-3 {
+    flex: 0 0 calc(25% - 15px);
+    max-width: calc(25% - 15px);
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
 /* CONTACT US SECTION */
 .contact {
     padding: 20px;
@@ -153,68 +213,3 @@ textarea.in {
     margin-top: 16px;
     font-weight: 600;
 }
-
-
-/* END CONTACT US SECTION */
-=======
-section {
-    margin-top: 100px;
-}
-
-/* product listings */
-
-.rental-1 {  }
-.rental-2 {  }
-.rental-3 {  }
-.rental-4 {  }
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.column {
-    height: 250px;
-    border-radius: 5px;
-    /* background-color: #333; */
-    box-shadow: 2px 2px 4px rgb(0 0 0 / 8%);
-
-    .img {
-        width: 100%;
-        height: 200px;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-    }
-    
-    button {
-        height: 50px;
-        width: 100%;
-        background-color: #ffea00;
-        font-size: 24px;
-        font-weight: 600;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-}
-
-.col-lg-3 {
-    flex: 0 0 calc(25% - 15px);
-    max-width: calc(25% - 15px);
-}
-
-@media (max-width: 768px) {
-    .col-md-6 {
-        flex: 0 0 calc(50% - 10px);
-        max-width: calc(50% - 10px);
-    }
-}
-
-@media (max-width: 480px) {
-    .col-xs-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
->>>>>>> main
