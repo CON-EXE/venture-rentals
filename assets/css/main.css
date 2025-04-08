@@ -18,9 +18,9 @@
     place-content: center;
 }
 
-/*---------------------------------------------------------------------------*/
-/*------------------------------Header---------------------------------------*/
-/*---------------------------------------------------------------------------*/
+/*--------------------------*/
+/* Header                   */
+/*--------------------------*/
 
 .title {
     height: 56px;
@@ -77,7 +77,67 @@ header {
     width: 100%;
 }
 
+/*--------------------------*/
+/* Footer                   */
+/*--------------------------*/
+
 footer {
-    
+  background-color: #bebebe;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-item {
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  width: 30px; 
+  height: 30px; 
+  background-color: #bebebe1e; 
+  border-radius: 50%; 
+  border: 1px solid #8d8d8d;
+  margin-top: 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.icon-item + .icon-item {
+  margin-left: 10px;
+}
+
+.icon-item i {
+  color: #464646; 
+  font-size: 18px; 
+}
+
+.icon-item:hover {
+  transition: border 0.3s ease-in-out;
+  border: 1px solid #000000;
+}
+
+.icon-item i:hover {
+  transition: color 0.3s ease-in-out;
+  color: #000000;
+}
+
+.flex p {
+  margin: 0;
+  font-family: 'Arial', serif;
+  line-height: 50px;
+}
