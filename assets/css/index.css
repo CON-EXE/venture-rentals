@@ -4,12 +4,12 @@
 
 .hero-banner {
     position: relative;
-    height: 50vh;
+    height: 92.6vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../media/hero-banner.png)center center/cover  no-repeat;
+    url(../media/hero-banner.jpg)center center/cover  no-repeat;
     background-size: cover;
     padding: 2rem;
 }
@@ -40,7 +40,7 @@
 .button {
     padding: 1rem 2rem;
     font-size: 1.5rem;
-    background-color: #e63946;
+    background-color: #219ecf;
     color: white;
     border: none;
     border-radius: 5px;
