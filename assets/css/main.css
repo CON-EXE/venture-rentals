@@ -83,6 +83,17 @@ header {
   }
 
 /*--------------------------*/
+/* Log In                   */
+/*--------------------------*/
+
+section.log-in {
+    visibility: hidden;
+    position: absolute;
+    height: 300px;
+    width: 200px;
+}
+
+/*--------------------------*/
 /* Footer                   */
 /*--------------------------*/
 
