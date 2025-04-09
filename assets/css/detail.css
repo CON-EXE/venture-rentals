@@ -1,3 +1,14 @@
+
+:root {
+    --app-bg-light: #f2f2f2;
+    --app-dark-blue: #155697;
+    --app-light-blue: #b6d9ec;
+    --app-light-grey: #aaa6a6;
+    --app-semibold: 600;
+    --app-font-size: 19px;
+    --app-white: #fff;
+}
+
 /*--------------------------*/
 /* Table                    */
 /*--------------------------*/
@@ -35,16 +46,16 @@ td {
 }
 
 th, td {
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
-    font-family: 'Sofia Sans', Courier, sans-serif;
+    font-family: Courier, sans-serif;
 }
 
 /*--------------------------*/
 /* Icons                    */
 /*--------------------------*/
 
-.fa-u {
+.fa-n {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -54,7 +65,7 @@ th, td {
     background-color: #bbd8e6;
 }
 
-.fa-a {
+.fa-m {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -64,7 +75,7 @@ th, td {
     background-color: #dfbebe;
 }
 
-.fa-c {
+.fa-s {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -74,7 +85,7 @@ th, td {
     background-color: #cbe2c2;
 }
 
-.fa-m {
+.fa-t {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -84,7 +95,7 @@ th, td {
     background-color: #bdc1e0;
 }
 
-.fa-v {
+.fa-h {
     width: 40px;
     height: 40px;
     border-radius: 50%;
