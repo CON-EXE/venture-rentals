@@ -56,58 +56,24 @@ th, td {
 }
 
 /*--------------------------*/
-/* Icons                    */
+/* Car Images               */
 /*--------------------------*/
 
-.fa-n {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center ;
-    padding-top: 12px;
-    color: #2a96c9;
-    background-color: #bbd8e6;
+.car-icon {
+    width: 160px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
-.fa-m {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center ;
-    padding-top: 12px;
-    color: #db6466;
-    background-color: #dfbebe;
+td img.car-icon {
+    display: block;
+    margin: 0 auto;
 }
 
-.fa-s {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center ;
-    padding-top: 12px;
-    color: #76cf53;
-    background-color: #cbe2c2;
-}
-
-.fa-t {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center ;
-    padding-top: 12px;
-    color: #555fb9;
-    background-color: #bdc1e0;
-}
-
-.fa-h {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center ;
-    padding-top: 12px;
-    color: #cc9f3c;
-    background-color: #e2d0a9;
-}
+/*--------------------------*/
+/* Reviews                  */
+/*--------------------------*/
 
 .coloured-star {
     text-align: center;
@@ -139,3 +105,4 @@ td > div {
     justify-content: flex-end;
     padding-right: 25px;
 }
+
