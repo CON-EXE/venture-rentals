@@ -91,16 +91,14 @@ section + section {
 }
 
 .product button {
-    /* display: inline-block; */
     padding: 10px 50px;
-    background-color: #0099ff;
-    color: #000;
+    background-color: #219ecf;
+    color: #fff;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 5px;
     margin-top: 20px;
     font-size: 20px;
     transition: all 0.25s ease-in-out;
-    
 }
 
 button:hover {
@@ -283,8 +281,8 @@ textarea.in {
 }
 
 .company-number {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 15px;
+     font-size: 20px;
     color: #333;
     text-align: center;
     font-weight: bold;
