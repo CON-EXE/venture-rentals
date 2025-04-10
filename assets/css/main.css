@@ -84,6 +84,11 @@ nav {
 header {
     width: 100%;
     border-bottom: 1px solid #bebebe; /* Added border */
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
   }
 
 /*--------------------------*/
