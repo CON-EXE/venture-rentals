@@ -68,10 +68,10 @@ section + section {
 
 /* product listings */
 
-.rental-1 {  }
-.rental-2 {  }
-.rental-3 {  }
-.rental-4 {  }
+.rental-1 { background: url(../media/Image1.jpeg) center center / cover no-repeat; }
+.rental-2 { background: url(../media/Image2.jpeg) center center / cover no-repeat; }
+.rental-3 { background: url(../media/Image3.jpeg) center center / cover no-repeat; }
+.rental-4 { background: url(../media/Image4.jpeg) center center / cover no-repeat; }
 
 .row {
     display: flex;
