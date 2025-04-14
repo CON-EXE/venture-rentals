@@ -49,6 +49,7 @@ section + section {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
@@ -101,7 +102,7 @@ section + section {
     transition: all 0.25s ease-in-out;
 }
 
-button:hover {
+product a:hover {
     background-color: #008ae6;
 }
 
