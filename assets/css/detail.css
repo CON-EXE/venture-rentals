@@ -97,6 +97,11 @@ td a {
     text-align: center;
     letter-spacing: 0.4;
     color: var(--app-bg-light);
+    transition: all 0.25s ease-in-out;
+}
+
+.button:hover {
+    background-color: #008ae6;
 }
 
 td > div {
