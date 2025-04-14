@@ -53,7 +53,7 @@ section + section {
 }
 
 .button:hover {
-    background-color: #f25464;
+    background-color: #008ae6;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +90,7 @@ section + section {
     width: 100%;
 }
 
-.product button {
+.product a {
     padding: 10px 50px;
     background-color: #219ecf;
     color: #fff;
